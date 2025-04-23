@@ -3,6 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
+export const API_URL = "https://reqres.in/api/users";
+
+
 function App() {
   const [count, setCount] = useState(0)
 
